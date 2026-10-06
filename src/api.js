@@ -1,4 +1,4 @@
-const API_URL = 'https://localhost:61711/api'; // change to your real API, not port 3001
+const API_URL = 'web-api-forreact-g5h4ekecekh7cpbd.southeastasia-01.azurewebsites.net/api'; // change to your real API, not port 3001
 
 async function request(path, options) {
   const res = await fetch(`${API_URL}${path}`, {
